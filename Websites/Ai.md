@@ -1,0 +1,9 @@
+https://www.perceptilabs.com/papers
+https://youtu.be/0sR1rU3gLzQ
+https://github.com/CorentinJ/Real-Time-Voice-Cloning
+https://www.shortlyai.com/?fp_ref=alifj
+https://github.com/lucidrains/big-sleep
+http://gaugan.org/gaugan2/
+https://replicate.com/afiaka87/clip-guided-diffusion
+https://www.tensorflow.org/tutorials/generative/style_transfer
+https://github.com/openai/DALL-E
