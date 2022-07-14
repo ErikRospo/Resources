@@ -13,3 +13,4 @@ cd ~;
 curl https://raw.githubusercontent.com/ErikRospo/Resources/main/CodeSamples/bash/.bash_aliases > ~/.bash_aliases
 curl https://raw.githubusercontent.com/ErikRospo/Resources/main/CodeSamples/bash/.tmux.conf > ~/.tmux.conf
 curl https://raw.githubusercontent.com/ErikRospo/Resources/main/CodeSamples/bash/.bashrc > ~/.bashrc
+curl https://raw.githubusercontent.com/ErikRospo/Resources/main/CodeSamples/bash/nanorc > /etc/nanorc
