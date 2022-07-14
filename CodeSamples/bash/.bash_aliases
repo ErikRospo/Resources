@@ -1,96 +1,75 @@
-alias ls='ls --color=auto'
-alias dir='dir --color=auto'
-alias vdir='vdir --color=auto'
-alias grep='grep --color=auto'
-alias fgrep='fgrep --color=auto'
-alias egrep='egrep --color=auto'
-alias sl='ls';
+
+alias addpkg='sudo apt-get install';
+alias alr='source ~/.bash_aliases';
+alias c='clear';
+alias cd..='cd ..';
+alias cdc='cd /mnt/chromeos/MyFiles';
+alias cdp='cd ~/programming';
+alias cdr='cd /';
+alias cdt='cd /tmp';
+alias cdu='cd ..';
+alias celar='clear';
+alias cl='clear';
 alias cls='clear';
+alias count='find . -type f | wc -l';
+alias cpv='rsync -ah --info=progress';
+alias dir='dir --color=auto';
 alias edit='nano';
-alias hex='xxd';
-alias ll='ls -l'
-alias la='ls -A'
-alias l='ls -CF'
-alias fullud='sudo apt upgrade; sudo apt update; sudo apt autoremove; sudo apt autoclean;'
-alias addpkg='sudo apt-get install'
-alias alr='source ~/.bash_aliases'
-alias c='clear'
-alias cd..='cd ..'
-alias cdc='cd /mnt/chromeos/MyFiles'
-alias cdp='cd ~/programming'
-alias cdr='cd /'
-alias cdt='cd /tmp'
-alias cdu='cd ..'
-alias celar='clear'
-alias cl='clear'
-alias clean='echo -n "Really clean this directory?";
-        read yes;
-        if test "$yes" = "y"; then
-           rm -f \#* *~ .*~ *.bak .*.bak  *.tmp .*.tmp core a.out;
-           echo "Cleaned.";
-        else
-           echo "Not cleaned.";
-        fi'
-alias cls='clear'
-alias count='find . -type f | wc -l'
-alias cpv='rsync -ah --info=progress'
-alias dir='dir --color=auto'
-alias edit='nano'
-alias egrep='egrep --color=auto'
-alias f='touch $1;chmod u=rwx $1;chmod g=rx $1;chmod o=r $1'
-alias fd='find . -type d -name'
-alias fg='find . -type f -name'
-alias fgrep='fgrep --color=auto'
-alias flood='sudo ping -f'
-alias gcp='git pull; tsc; git add -u; git commit -m "Compiled Previous Changes"; git push'
-alias gf='git add -u && git commit && git push'
-alias grep='grep --color=auto'
-alias gs='git status'
-alias h='history'
-alias hex='hexdump -C'
-alias hi='history | grep'
-alias install='sudo apt-get install'
-alias j='jobs'
-alias js='node'
-alias l='ls -CF --color=always'
-alias la='ls -A --color=always'
-alias left='ls -t -1 --long --color=always'
-alias lf='ls -f --color=always'
-alias ll='ls -l --color=always'
-alias lla='ls -l -A --color=always'
-alias ls='ls --color=auto'
-alias lt='tree'
-alias m='more'
-alias mdc='mkdir $1; cd $1'
-alias move='mv'
-alias mroe='more'
-alias open='code'
-alias pdw='pwd'
-alias po='popd'
-alias pu='pushd'
-alias put='cp'
-alias python='python3'
-alias rb='sudo reboot'
-alias remove='rm -r'
-alias rm='rm'
-alias rmdir='rmdir -i'
-alias rmdirf='rmdir -rf'
-alias rmf='rm -rf'
-alias say='echo'
-alias scratch='~/BashScripts/startup/scratchpad.sh'
-alias serve='python -m http.server 8000'
-alias size_of='du -sh'
-alias sl='ls'
-alias str='strings $1 | less'
-alias strg='strings -n $1 | less'
-alias tailfile='tail -f'
-alias top='htop'
-alias up='sudo apt-get upgrade;sudo apt-get update;sudo apt-get autoremove;sudo apt-get autoclean;sudo apt-get autopurge'
-alias update='sudo apt-get update'
-alias upgrade='sudo apt-get upgrade;sudo apt autoclean;sudo apt autoremove'
-alias upgrade-all='sudo apt-get upgrade -y;sudo apt autoclean;sudo apt autoremove'
-alias va='source ./venv/bin/activate'
-alias vdir='vdir --color=auto'
-alias ve='python3 -m venv ./venv'
-alias vscode='code'
+alias egrep='egrep --color=auto';
+alias f='touch $1;chmod u=rwx $1;chmod g=rx $1;chmod o=r $1';
+alias fd='find . -type d -name';
+alias fg='find . -type f -name';
+alias fgrep='fgrep --color=auto';
+alias flood='sudo ping -f';
+alias fullud='sudo apt upgrade; sudo apt update; sudo apt autoremove; sudo apt autoclean;';
+alias gcp='git pull; tsc; git add -u; git commit -m "Compiled Previous Changes"; git push';
+alias gf='git add -u && git commit && git push';
+alias grep='grep --color=auto';
+alias gs='git status';
+alias h='history';
+alias hex='hexdump -C';
+alias hi='history | grep';
+alias install='sudo apt-get install';
+alias j='jobs';
+alias js='node';
+alias l='ls -CF --color=always';
+alias la='ls -A --color=always';
+alias left='ls -t -1 --long --color=always';
+alias lf='ls -f --color=always';
+alias ll='ls -l --color=always';
+alias lla='ls -l -A --color=always';
+alias ls='ls --color=auto';
+alias lt='tree';
+alias m='more';
+alias mdc='mkdir $1; cd $1';
+alias move='mv';
+alias mroe='more';
+alias open='code';
+alias pdw='pwd';
+alias po='popd';
+alias pu='pushd';
+alias put='cp';
+alias python='python3';
+alias rb='sudo reboot';
+alias remove='rm -r';
+alias rm='rm';
+alias rmdir='rmdir -i';
+alias rmdirf='rmdir -rf';
+alias rmf='rm -rf';
+alias scratch='~/BashScripts/startup/scratchpad.sh';
+alias serve='python -m http.server 8000';
+alias size_of='du -sh';
+alias sl='ls';
+alias str='strings $1 | less';
+alias strg='strings -n $1 | less';
+alias tailfile='tail -f';
+alias top='htop';
+alias up='sudo apt-get upgrade;sudo apt-get update;sudo apt-get autoremove;sudo apt-get autoclean;sudo apt-get autopurge';
+alias update='sudo apt-get update';
+alias upgrade-all='sudo apt-get upgrade -y;sudo apt autoclean;sudo apt autoremove';
+alias upgrade='sudo apt-get upgrade;sudo apt autoclean;sudo apt autoremove';
+alias va='source ./venv/bin/activate';
+alias vdir='vdir --color=auto';
+alias ve='python3 -m venv ./venv';
+alias vscode='code';
 alias watchfile='watch -n 1 "ls -l"'
