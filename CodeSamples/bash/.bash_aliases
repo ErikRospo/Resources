@@ -10,6 +10,7 @@ alias cdt='cd /tmp';
 alias cdu='cd ..';
 alias celar='clear';
 alias cl='clear';
+alias clean='echo -n "Really clean this directory?"; read yes; if test "$yes" = "y"; then rm -f \#* *~ .*~ *.bak .*.bak  *.tmp .*.tmp core a.out; echo "Cleaned."; else echo "Not cleaned."; fi'
 alias cls='clear';
 alias count='find . -type f | wc -l';
 alias cpv='rsync -ah --info=progress';
