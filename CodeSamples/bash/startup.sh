@@ -1,8 +1,8 @@
-sudo apt update;
-sudo apt upgrade;
-sudo apt install tmux htop git nodejs python3 python3-pip tree wget nmap man-db info nano build-essential xxd ssh curl;
-sudo apt autoremove;
-sudo apt autoclean;
+yes|sudo apt update;
+yes|sudo apt upgrade;
+yes|sudo apt install tmux htop git nodejs python3 python3-pip tree wget nmap man-db info nano build-essential xxd ssh curl;
+yes|sudo apt autoremove;
+yes|sudo apt autoclean;
 cd ~;
 mkdir bin
 cd ~/bin
