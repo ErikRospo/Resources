@@ -6,8 +6,8 @@ yes|sudo apt autoclean;
 cd ~;
 mkdir bin
 cd ~/bin
-wget https://github.com/arl/gitmux/releases/download/v0.7.9/gitmux_0.7.9_linux_amd64.tar.gz;
-tar -xf gitmux-0.7.9_linux_amd64.tar.gz;
+wget https://github.com/arl/gitmux/releases/download/v0.7.9/gitmux_0.7.9_linux_amd64.tar.gz -O gitmux.tar.gz;
+tar -xf gitmux.tar.gz;
 export PATH=$PATH:`pwd`;
 cd ~;
 curl https://raw.githubusercontent.com/ErikRospo/Resources/main/CodeSamples/bash/.bash_aliases > ~/.bash_aliases
