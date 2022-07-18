@@ -7,3 +7,4 @@ http://gaugan.org/gaugan2/
 https://replicate.com/afiaka87/clip-guided-diffusion  
 https://www.tensorflow.org/tutorials/generative/style_transfer  
 https://github.com/openai/DALL-E  
+https://app.resemble.ai/  
