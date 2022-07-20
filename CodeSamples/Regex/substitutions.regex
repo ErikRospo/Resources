@@ -1,0 +1,2 @@
+Remove javascript-style TOREMOVES
+/\/\/TOREMOVE:START[\w\W]*?\/\/TOREMOVE:END/g
